@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenLatino.Core", "OpenLatino.Core", "{FC474CDC-2B08-41F5-BF82-DF556C4AA9AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenLatino.Core.Domain", "OpenLatino.Core.Domain\OpenLatino.Core.Domain.csproj", "{E9705FB2-CD30-4202-9E77-C5B979A3C1BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenLatino.MapServer", "OpenLatino.MapServer", "{E35C55A8-F43B-459F-ADAE-8C27A55E0AE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenLatino.MapServer.Domain", "OpenLatino.MapServer.Domain\OpenLatino.MapServer.Domain.csproj", "{C84AAF4A-F962-4BD2-9695-5C4DC5C1FC88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RBush", "RBush\RBush.csproj", "{3AACBE3F-37E8-48F4-AF6B-BD9E10E28798}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenLatino.MapServer.Infrastructure.SQL", "OpenLatino.MapServer.Infrastructure.SQL\OpenLatino.MapServer.Infrastructure.SQL.csproj", "{AC7CC850-9FA1-457B-9FAC-159BE810A44F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenLatino.Admin", "OpenLatino.Admin", "{32A9EA2A-C97B-46E8-B874-BFC7984AEA3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenLatino.Admin.Infrastructure", "OpenLatino.Admin.Infrastructure\OpenLatino.Admin.Infrastructure.csproj", "{BCBC8855-7404-4C8B-9063-F11F96B3EFAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenLatino.Admin.Application", "OpenLatino.Admin.Application\OpenLatino.Admin.Application.csproj", "{35DFC3A3-AAA5-451F-AB72-B2D4F6821FB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenLatino.Admin.Server", "OpenLatino.Admin.Server\OpenLatino.Admin.Server.csproj", "{A126510A-060C-4DEF-BD29-2AA7DA88F719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security", "Security\Security.csproj", "{452ED0A7-15B6-406A-A99B-E401A02099FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9705FB2-CD30-4202-9E77-C5B979A3C1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9705FB2-CD30-4202-9E77-C5B979A3C1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9705FB2-CD30-4202-9E77-C5B979A3C1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9705FB2-CD30-4202-9E77-C5B979A3C1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84AAF4A-F962-4BD2-9695-5C4DC5C1FC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84AAF4A-F962-4BD2-9695-5C4DC5C1FC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84AAF4A-F962-4BD2-9695-5C4DC5C1FC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84AAF4A-F962-4BD2-9695-5C4DC5C1FC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AACBE3F-37E8-48F4-AF6B-BD9E10E28798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AACBE3F-37E8-48F4-AF6B-BD9E10E28798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AACBE3F-37E8-48F4-AF6B-BD9E10E28798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AACBE3F-37E8-48F4-AF6B-BD9E10E28798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7CC850-9FA1-457B-9FAC-159BE810A44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7CC850-9FA1-457B-9FAC-159BE810A44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7CC850-9FA1-457B-9FAC-159BE810A44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7CC850-9FA1-457B-9FAC-159BE810A44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBC8855-7404-4C8B-9063-F11F96B3EFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBC8855-7404-4C8B-9063-F11F96B3EFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBC8855-7404-4C8B-9063-F11F96B3EFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBC8855-7404-4C8B-9063-F11F96B3EFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DFC3A3-AAA5-451F-AB72-B2D4F6821FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DFC3A3-AAA5-451F-AB72-B2D4F6821FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DFC3A3-AAA5-451F-AB72-B2D4F6821FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DFC3A3-AAA5-451F-AB72-B2D4F6821FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A126510A-060C-4DEF-BD29-2AA7DA88F719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A126510A-060C-4DEF-BD29-2AA7DA88F719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A126510A-060C-4DEF-BD29-2AA7DA88F719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A126510A-060C-4DEF-BD29-2AA7DA88F719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452ED0A7-15B6-406A-A99B-E401A02099FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452ED0A7-15B6-406A-A99B-E401A02099FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452ED0A7-15B6-406A-A99B-E401A02099FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452ED0A7-15B6-406A-A99B-E401A02099FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9705FB2-CD30-4202-9E77-C5B979A3C1BD} = {FC474CDC-2B08-41F5-BF82-DF556C4AA9AB}
+		{C84AAF4A-F962-4BD2-9695-5C4DC5C1FC88} = {E35C55A8-F43B-459F-ADAE-8C27A55E0AE5}
+		{AC7CC850-9FA1-457B-9FAC-159BE810A44F} = {E35C55A8-F43B-459F-ADAE-8C27A55E0AE5}
+		{BCBC8855-7404-4C8B-9063-F11F96B3EFAB} = {32A9EA2A-C97B-46E8-B874-BFC7984AEA3A}
+		{35DFC3A3-AAA5-451F-AB72-B2D4F6821FB1} = {32A9EA2A-C97B-46E8-B874-BFC7984AEA3A}
+		{A126510A-060C-4DEF-BD29-2AA7DA88F719} = {32A9EA2A-C97B-46E8-B874-BFC7984AEA3A}
+		{452ED0A7-15B6-406A-A99B-E401A02099FC} = {32A9EA2A-C97B-46E8-B874-BFC7984AEA3A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D9CD1C3-7F46-4D22-8A4E-456874A677C4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="Unity" Version="5.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenLatino.Admin.Infrastructure\OpenLatino.Admin.Infrastructure.csproj" />
+    <ProjectReference Include="..\OpenLatino.MapServer.Domain\OpenLatino.MapServer.Domain.csproj" />
+    <ProjectReference Include="..\TileGenerator.Domain\TileGenerator.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
